@@ -1,8 +1,7 @@
 # Todo Application
 
-Given an `app.js` file and database file `todoApplication.db` with a table `todo`.
 
-Write APIs to perform operations on the table `todo`, with the following columns,
+Writing APIs to perform operations on the table `todo`, with the following columns,
 
 **Todo Table**
 
@@ -14,21 +13,6 @@ Write APIs to perform operations on the table `todo`, with the following columns
 | priority | TEXT    |
 | status   | TEXT    |
 | due_date | DATE    |
-
-<MultiLineNote>
-  
-  - Replace the spaces in URL with `%20`.
-  - Possible values for `priority` are `HIGH`, `MEDIUM`, and `LOW`.
-  - Possible values for `status` are `TO DO`, `IN PROGRESS`, and `DONE`.
-  - Possible values for `category` are `WORK`, `HOME`, and `LEARNING`.
-  - Use the format `yyyy-MM-dd` for formating with date-fns `format` function.
-    - The user may request with due date value as `2021-1-21`, format the date to `2021-01-21` and perform Create, Read, Update operations on the database.
-</MultiLineNote>
-
-<MultiLineQuickTip>
-
-Use `date-fns` format function to format the date. Refer to the documentation [link](https://date-fns.org/v2.19.0/docs/Getting-Started) for the usage of the `format` function.
-</MultiLineQuickTip>
 
 ### Invalid scenarios for all APIs
 
@@ -441,8 +425,3 @@ Todo Deleted
 
 <br/>
 
-Use `npm install` to install the packages.
-
-**Export the express instance using the default export syntax.**
-
-**Use Common JS module syntax.**
